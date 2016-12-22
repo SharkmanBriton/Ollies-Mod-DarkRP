@@ -1,0 +1,20 @@
+TEAM_ADMIN = DarkRP.createJob("Admin on Duty", {
+   color = Color(255, 0, 0, 255),
+   model = {"models/player/combine_super_soldier.mdl"},
+   description = [[For when you're an admin and need to enforce the rules.]],
+   weapons = {"arrest_stick", "unarrest_stick"},
+   command = "adminonduty",
+   max = 1000,
+   salary = 0,
+   admin = 1,
+   vote = false,
+   hasLicense = false,
+   candemote = false,
+   -- CustomCheck
+   medic = false,
+   chief = false,
+   mayor = false,
+   hobo = false,
+   cook = false,
+   category = "Citizens",
+})
